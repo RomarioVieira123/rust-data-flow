@@ -1,3 +1,7 @@
+use crate::ownership::ownership_1;
+
+mod ownership;
+
 fn main() {
-    println!("Hello, world!");
+    ownership_1();
 }
